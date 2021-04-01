@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+Z:/Documents/programming/yellower/main.cpp
+yellower.h
+Z:/Documents/programming/yellower/yellower.h
+thread
+-
+deque
+-
+ctime
+-
+
+Z:/Documents/programming/yellower/yellower.h
+filesystem
+-
+string
+-
+iostream
+-
+

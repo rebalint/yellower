@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="jpeglib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ExternalIncludeFiles\;CMake Files\ExternalIncludeFiles\libjpeg-turbo\;CMake Files\ExternalIncludeFiles\libjpeg-turbo\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="Z:/Documents/programming/yellower/cmake-build-debug/ExternalIncludeFiles/libjpeg-turbo/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Documents/programming/yellower/cmake-build-debug/ExternalIncludeFiles/libjpeg-turbo/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Documents/programming/yellower/cmake-build-debug/ExternalIncludeFiles/libjpeg-turbo/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Documents/programming/yellower/cmake-build-debug/ExternalIncludeFiles/libjpeg-turbo/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Documents/programming/yellower/cmake-build-debug/ExternalIncludeFiles/libjpeg-turbo/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="Z:/Documents/programming/yellower/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="Z:/Documents/programming/yellower/ExternalIncludeFiles/libjpeg-turbo/build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ExternalIncludeFiles\libjpeg-turbo\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

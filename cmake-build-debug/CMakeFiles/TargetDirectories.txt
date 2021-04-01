@@ -1,0 +1,3 @@
+Z:/Documents/programming/yellower/cmake-build-debug/CMakeFiles/yellower.dir
+Z:/Documents/programming/yellower/cmake-build-debug/CMakeFiles/edit_cache.dir
+Z:/Documents/programming/yellower/cmake-build-debug/CMakeFiles/rebuild_cache.dir

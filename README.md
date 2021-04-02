@@ -1,5 +1,3 @@
-Basic console app for recoloring large batches of images.
-
 # Installation
 Download source, do
 ```

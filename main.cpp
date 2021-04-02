@@ -2,14 +2,11 @@
 #include <thread>
 #include <deque>
 
-//TODO this is for testing, likely to be removed or added as config option
+
 #include <ctime>
 
 int main()
 {
-    //TODO this is for testing, likely to be removed or added as config option
-    std::clock_t start = clock();
-
     //get parameters from user
 
     std::string dir_path;   /*copy-pasted full path, tested on windows (eg.: Z:\pics\yellow\coloring )*/
@@ -24,6 +21,8 @@ int main()
     std::cout << "Please input the intensity:" << std::endl;
     std::cin >> intensity;
 
+    //log starting time
+    std::clock_t start = clock();
 
     //convert target_hex into rgb
     std::vector<unsigned char > target_rgb;
@@ -62,7 +61,7 @@ int main()
 
     std::cout<<"Recoloring finished." << std::endl;
 
-    //TODO this is for testing, likely to be removed or added as config option
+    //output the time diff between starting and finishing
     clock_t stop = clock();
     double elapsed = (double) (stop - start) / CLOCKS_PER_SEC;
     printf("\nTime elapsed: %.5f\n", elapsed);

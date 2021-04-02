@@ -17,6 +17,11 @@ int main()
     std::cout << "Please input the hex for recoloring:" << std::endl;
     std::cin >> target_hex;
 
+    //remove # from target_hex if present
+    if(target_hex[0]=='#'){
+        target_hex = target_hex.substr(1);
+    }
+
     float intensity;    /*integer between 0 and 100*/
     std::cout << "Please input the intensity:" << std::endl;
     std::cin >> intensity;

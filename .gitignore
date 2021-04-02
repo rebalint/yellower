@@ -200,4 +200,8 @@ CMakeUserPresets.json
 # External projects
 *-prefix/
 
+### idea and cmake stuff in externalinclude
+ExternalIncludeFiles/.idea/
+ExternalIncludeFiles/cmake-build-*/
+
 # End of https://www.toptal.com/developers/gitignore/api/clion,c++,cmake,c
